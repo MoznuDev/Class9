@@ -1,0 +1,371 @@
+/* All Common Css Start  */
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+ul,ol{
+  list-style-type: none;
+}
+a,a:hover{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+  line-height: 0.8;
+  margin: 0;
+  padding: 0;
+}
+/* All common Css End  */
+/* Header Part Start  */
+.navbar{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
+.nav-link{
+  padding: 40px 20px !important;
+  font-size: 18px;
+  transition: .4s;
+  color: #fff;
+}
+.nav-link:hover{
+color: #6A4DF4;
+}
+.contractBTN{
+  padding: 15px 40px;
+  background: #6A4DF4;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.contractBTN a{
+color: #fff;
+}
+/* Header Part End  */
+/* Banner Part Start  */
+#bannerPart{
+  background: url(../images/agenc-Banner\ 1.png);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bannerOverly{
+  padding-top: 330px;
+  padding-bottom: 170px;
+  background: rgba(0, 0, 0, 0.62);
+  transition: .4s;
+}
+.bannerOverly:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px rgba(49, 6, 239, 0.75);
+  border-radius: 20px;
+}
+.bannerContant:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+  border-radius: 20px;
+}
+.bannerContant h1{
+  font-size: 75px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 50px;
+  line-height: 120%;
+}
+.bannerContant p{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height:26px;
+  padding: 0 230px;
+}
+.bannerContant a{
+  padding: 10px 30px;
+  background: #6A4DF4;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* Banner Part End  */
+/* Counter Part Start  */
+.counterContrant{
+  padding: 155px 0;
+}
+.extraCount{
+  padding: 90px 25px;
+  background: #E0FFF9;
+  border-radius: 20px;
+}
+.extraCount:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+  border-radius: 20px;
+}
+.counterItem h4{
+font-size: 25px;
+font-weight:500;
+padding-bottom: 28px;
+color: #6A4DF4;
+}
+.counterItem h3{
+  font-size: 35px;
+  font-weight: 600;
+  color: #151515;
+  padding-right: 220px;
+  line-height:100%;
+}
+.counter{
+  padding-top: 50px;
+}
+.counter h2{
+font-size: 50px;
+font-weight: 700;
+padding-bottom: 20px;
+}
+.counter h5{
+  font-size: 20px;
+  font-weight: 500;
+  color: #737373;
+} 
+/* Counter Part End  */
+/* Service Part Start  */
+#ServicePart{
+  padding-bottom: 160px;
+}
+.serviceText h2{
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 45px;
+  color: #151515;
+}
+.serviceText p{
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 55px;
+  line-height: 26px;
+  color: #737373;
+}
+.serviceItem h4{
+  font-size: 25px;
+  font-weight: 700;
+  padding: 30px 0;
+}
+.serviceItem:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+  border-radius: 20px;
+  }
+/* Service Part End  */
+/* Work Part Start  */
+#workPart{
+  padding: 155px 0;
+  background: #F3F3F3;
+}
+.work h3{
+  font-size: 45;
+  font-weight: 700;
+  color:#151515 ;
+  padding-bottom: 35px;
+}
+.work p{
+  padding-bottom: 110px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  line-height: 26px;
+}
+.workItem{
+  overflow-x: hidden;
+}
+.workItem:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+}
+.workItem h3{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #151515;
+}
+.workItem p{
+  font-size: 16;
+  font-weight: 400;
+  color: #737373;
+  line-height: 26px;
+}
+/* Work Part End  */
+/* Agenc Part Start  */
+#agencPart{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.agencText h3{
+  font-size: 45px;
+  font-weight: 700;
+  color:#151515;
+  padding:0 180px;
+  line-height:120%;
+}
+.agencText p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  padding:35px 25px;
+  line-height: 26px;
+}
+.agencItem:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+}
+.agencTextItem h4{
+  font-size: 25px;
+  font-weight: 700;
+  color: #151515;
+  padding: 20px 0;
+}
+.agencImg:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+}
+.agencTextItem p{
+  font-size: 16px;
+  font-weight: 400;
+  color:#737373 ;
+  padding-right: 75px;
+  line-height: 26px;
+  padding-bottom: 60px;
+}
+/* Agenc Part End  */
+/* Review Part Start  */
+#reviewPart{
+  padding-top: 15px;
+  padding-bottom: 125px;
+}
+.reviewText h3{
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+  padding-bottom: 35px;
+}
+.reviewText p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  line-height: 26px;
+}
+.reviewItem p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  padding: 16px 0px;
+  line-height: 26px;
+  margin-right: 105px;
+}
+.reviewIcon:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+  border-radius: 20px 
+}
+.review{
+  display: flex;
+  padding: 30px 0;
+}
+.clientText{
+  padding-left: 20px;
+  }
+/* Review Part End  */
+
+/* Contract Part Start  */
+#contactPart{
+  padding: 150px 0;
+  background:#F3F3F3 ;
+}
+.contractItem{
+  margin-top: 170px;
+}
+.contractItem h3{
+  padding-right:210px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height:120%;
+}
+.contatcForm h3{
+  padding-bottom: 35px;
+}
+.contractItem:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+  border-radius: 20px 
+}
+.contractItem p,span{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color:#737373;
+}
+.contractItem span{
+  margin-top: 20px;
+}
+.mybtn{
+  padding: 15px 40px;
+  background: #6A4DF4;
+  width: 100%;
+  border-radius: 10px;
+  color: #fff;
+}
+.contatcForm{
+  padding: 80px 20px;
+}
+.contatcForm:hover{
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 3px hsla(251, 95%, 48%, 0.75);
+  border-radius: 20px 
+}
+/* Contract Part End  */
+/* About Part Start  */
+#aboutPart{
+  padding: 145px 0;
+  background: #fff;
+}
+.aboutText p{
+  padding-top: 35px;
+  padding-right: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+.aboutItem h3{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  color:#151515;
+  padding-left:30px;
+ 
+}
+.manu{
+line-height: 26px;
+font-size: 16px;
+font-weight: 400;
+color: #737373;
+}
+/* About Part End  */
+/* Service Part Start  */
+/* Service Part End  */
